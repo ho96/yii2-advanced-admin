@@ -14,6 +14,30 @@ class UserController extends BaseController
 {
     /**
      * @inheritdoc
+     */
+    public function behaviors()
+    {
+        return [
+            'access' => [
+                'class' => AccessControl::className(),
+                'rules' => [
+                    [
+                        'actions' => ['update'],
+                        'allow' => true,
+                        'roles' => ['@'],
+                    ],
+                ],
+            ],
+            'verbs' => [
+                'class' => VerbFilter::className(),
+                'actions' => [
+                ],
+            ],
+        ];
+    }
+	
+    /**
+     * @inheritdoc
      */		
 	public function actionUpdate()
 	{
