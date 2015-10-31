@@ -1,0 +1,56 @@
+<?php
+
+return array(
+	'home.theproblemofyii' => 'The problem of Yii is that doesn&#039;t have an administration area. This can be solved with this extension! It is super easy to use and configure.',
+	'home.thisextensionisnot' => 'This extension is not a heavy application with a CMS, but a light module that you can use in any Yii application.',
+	'home.thisadministrator' => 'This administrator is just a basis for all your Yii projects. You can leave it as is or adapt it to your needs.',
+	'home.pleaseconsider' => 'Please consider making a donation.',
+	'home.ihavemoreimprovements' => 'I have more improvements in mind but I won&#039;t inlude them unless I receive enough donations. Thanks.',
+	
+	'layout.administration' => 'Administration',
+	'layout.home' => 'Home',
+	'layout.profile' => 'Profile',
+	'layout.messages' => 'Messages',
+	'layout.phpliteadmin' => 'PHP Lite Admin',
+	'layout.logout' => 'Log out',
+	'layout.welcome' => 'Welcome',
+	'layout.styles' => 'Styles',
+	'layout.extplorer' => 'Extplorer',
+	'layout.phpmyadmin' => 'PHPMyAdmin',
+	'layout.about' => 'About',
+	'layout.gobackmainsite' => 'Go to the main site',
+	'layout.phpinfo' => 'PHP info',
+	
+	'login.login' => 'Login',
+	'login.pleasefill' => 'Please fill out the following form with your login credentials:',
+	'login.password' => 'Password',
+	'login.username' => 'Username',
+	'login.rememberme' => 'Remember me next time',
+	'login.incorrect' => 'Incorrect username or password.',
+	
+	'profile.id' => 'Id',
+	'profile.username' => 'Username',
+	'profile.password' => 'Password',
+	'profile.email' => 'Email',
+	'profile.passwordstrength' => 'Password strength',
+	'profile.generatepassword' => 'Generate password',
+	'profile.repeatpassword' => 'Repeat password',
+
+	'styles.editstylesheetcolors' => 'Edit stylesheet colors',
+	'styles.onlycolorsstarting' => 'Only colors starting with # are changed. It doesn&#039;t affect color names (red, black, navy etc.).',
+	'styles.operationsirreversible' => 'Warning: These operations are irreversible!!! Make a copy of the stylesheet first.',
+	'styles.reducebrightness' => 'Reduce brightness',
+	'styles.increasebrightness' => 'Increase brightness',
+	'styles.setrandomcolors' => 'Set random colors',
+	'styles.setparticularcolors' => 'Set particular colors',
+	'styles.changecolors' => 'Change colors',
+	'styles.editstylesheet' => 'Edit stylesheet',
+
+	'messages.editfile' => 'Edit file',
+	
+	'common.astericfieldsrequired' => 'Fields with * are required.',
+	'common.clear' => 'Clear',
+	'common.save' => 'Save',
+	'common.edit' => 'Edit',
+	'common.changessaved' => 'Changes saved successfully.',
+);

@@ -1,0 +1,429 @@
+*
+{
+	font-family: Verdana;
+}
+
+body
+{
+	background:silver;	
+}
+
+header *
+{
+	color:white;
+	font-weight:bold;
+}
+
+header
+{
+	background:purple;
+	padding:10px;
+	text-align:center;	
+}
+
+header #title
+{
+	float:left;
+	font-size:20px;
+}
+
+header #title-image
+{
+	float:left;
+}
+
+header #welcome
+{
+	padding-top:8px;
+	margin:10px 20px;
+	float:right;
+}
+
+header #logout
+{
+	padding-top:3px;
+	margin:5px 20px;
+	float:right;
+}
+
+header #flags
+{
+	padding-top:8px;
+	margin:10px 20px;
+	float:right;
+	vertical-align: middle;
+}
+
+header #home
+{
+	margin:5px 20px;
+	float:right;
+}
+
+header #flags img
+{
+	padding:0px;
+	margin: 0px 5px;
+}
+
+footer
+{
+	font-weight:bold;
+	background:black;
+	text-align:center;
+	color:white;
+	padding:10px;	
+}
+
+footer a
+{
+	color: white;	
+}
+
+iframe
+{
+	border:none;	
+}
+
+#box
+{
+	max-width:1080px;
+	border:1px solid black;
+	margin:0 auto;
+	background:white;
+	margin-top:5px;
+}
+
+#post-box
+{
+	padding: 10px;	
+}
+
+.login-item
+{
+	width:200px;
+	margin:0 auto;
+	color:black;
+}
+
+.center
+{
+	text-align:center;
+}
+
+.vertical-align
+{
+	vertical-align:middle;
+}
+
+.float-left
+{
+	float:left;
+}
+
+.float-right
+{
+	float:right;
+}
+
+.clear
+{
+	clear:both;
+}
+
+nav
+{
+	background:black;
+}
+
+#responsive-menu
+{
+	float:right;
+}
+
+#content
+{
+	padding:20px;	
+}
+
+.selectedflag
+{
+	border:3px solid yellow;
+}
+
+select {
+   width: 230px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   border:1px solid black;
+}
+
+button[type='submit']
+{
+	padding:0px 20px;
+	height:40px;
+	font-weight:bold;
+	background:purple;
+	color:white;
+}
+
+#messages-textarea
+{
+	width:100%;
+	height:300px;	
+}
+
+#messages-table, #messages-table td
+{
+	border:1px solid silver;
+}
+
+#messages-table td
+{
+	padding:2px 10px;
+}
+
+.padding-20-0
+{
+	padding: 20px 0px;
+}
+
+.padding-20
+{
+	padding: 20px;	
+}
+
+.margin-40-0-20-0
+{
+	margin-top: 40px;
+	margin-bottom: 20px;		
+}
+
+.margin-bottom-20
+{
+	margin-bottom:20px;
+}
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+	margin:20px 20px 0px 20px;
+	padding:.8em;
+	border:2px solid #ddd;
+}
+
+div.flash-error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.flash-success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+legend
+{
+	color:gray;	
+}
+
+#colors-div
+{
+	text-align:center;
+	border:1px solid silver;
+	padding:0px 10px;
+	margin-bottom:30px;
+}
+
+#colors-div > div
+{
+	border:1px solid silver;
+	padding:10px;
+	margin:10px 0px;
+}
+
+#colors-div fieldset
+{
+	border:1px solid silver;
+	margin-bottom:10px;	
+}
+
+#colors-div > form .color
+{
+	width:110px;
+	height:50px;
+	color:black;
+	text-align:center;
+}
+
+#colors-div > form #inputs > div
+{
+	display:inline-block;
+	text-align:center;
+}
+
+#colors-div > form #inputs span
+{
+	cursor:pointer;
+	color:gray;
+}
+
+#edit-stylesheet-div
+{
+	text-align:center;
+}
+
+#edit-stylesheet-div textarea
+{
+	color:white;
+	background: #555;
+	width:100%;
+	height:400px;
+	margin-bottom:20px;
+}
+
+.black
+{
+	color:black;	
+}
+
+.purple
+{
+	color:purple;
+	font-weight: bold;
+}
+
+.red
+{
+	color:red;
+}
+
+.gray
+{
+	color:gray;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+.help-block-error
+{
+	color:#F0082E;
+}
+
+.form-group
+{
+	margin-bottom: 30px;
+}
+
+.control-label
+{
+	font-weight:bold;
+	color:black;
+}
+
+@media all and (max-width:450px)
+{
+	#pre-box img
+	{
+		display:none;
+	}
+	
+	h1
+	{
+		font-size:20px;
+	}
+}
+
+@media all and (max-width:700px)
+{
+	#messages-table td
+	{
+		word-break:break-all;
+	}
+}
