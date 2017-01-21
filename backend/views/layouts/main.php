@@ -119,7 +119,7 @@ AppAsset::register($this);
 			<?= $content ?>
 		</div>
 		<footer>
-			Administration developed by <?= Html::a('http://ho96.com', 'http://ho96.com', array('target' => '_blank'))?>
+			Administration developed by <?= Html::a('http://oligalma.com', 'http://oligalma.com', array('target' => '_blank'))?>
 			<br/><br/>
 			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 			<input type="hidden" name="cmd" value="_s-xclick">
