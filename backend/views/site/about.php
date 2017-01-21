@@ -2,7 +2,7 @@
 use yii\helpers\Html;
 ?>
 <div class="center">
-Administration created by <?= Html::a('http://ho96.com', 'http://ho96.com', array('target' => '_blank')) ?>. All rights reserved.<br/>
+Administration created by <?= Html::a('http://oligalma.com', 'http://oligalma.com', array('target' => '_blank')) ?>. All rights reserved.<br/>
 </div>
 <div class="center padding-20-0">
 	If you like this extension please donate here<br/><br/>
